@@ -127,7 +127,6 @@ p{
 /*mobile view */
 @media (max-width: 500px)  { 
   body {
-    position: relative;
       width:100vw;
       height:100vh;
     background-image: url('bg2.jpg');
