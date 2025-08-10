@@ -1,0 +1,268 @@
+body{
+     margin:0px;
+     padding:0px;
+     width:100vw;
+     height:100vh;
+     background-color:rgb(241, 231, 231);
+    
+    }
+.container1{
+            width:100%;
+           height:100%;
+           color:silver;
+           
+
+}
+
+.submain{
+           display:flex;
+           flex:column;
+           margin-top: 0px;
+}
+.logo{
+    
+   margin-left:10px;
+   margin-top:5px;
+   
+}
+ table{
+            color:silver;
+            font-size: 40px;
+            font-weight: 50px;
+            padding:20px;
+            margin-left:800px;
+            margin-top:10px;
+            border-spacing:20px;
+       }
+    a{    font-size: 40px;
+          font-weight: bold;
+          margin-left:120px;
+          color:silver;
+          text-decoration:none;
+        }
+        a:hover{
+                   color:cyan;
+                   text-shadow:0 0 5px cyan;
+
+        }
+
+.heading{
+          color:silver;
+          font-size:50px;
+          font-weight: bold;
+          font-style: italic;
+          margin-left: 650px;
+          margin-top:200px;
+              text-shadow: 0 0 5px silver,
+                        0 0 10px silver,
+                        0 0 20px white,
+                        0 0 40px #00ffff,
+                        0 0 80px #00ffff;
+          animation:landingGlow 1.5s ease-in-out forwards;
+
+        }
+        td:hover{
+               cursor: pointer;
+        }
+      .maintwo {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.maintwo p {
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.maintwo .img {
+  width: 40%;
+  height: 100%;
+}
+.maintwo .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* makes image fill without distortion */
+}
+
+
+
+@media (max-width: 1025px) {
+  body {
+    width:100%;
+    height:100%;
+    
+  background-image: url('bg2.jpg');
+     background-position: center;
+    
+     background-size: cover;
+}
+.maintwo{
+           position: relative;
+           width:50vw;
+           height:100vh;
+           background-color: black;
+           color:white;
+           justify-content: center;
+           align-items: center;
+           margin-top:0px;
+          
+}
+p{
+   margin-top: 0px;
+   text-align: center;
+   font-style: italic;
+  align-items: center;
+  justify-content: center;
+  color:silver;
+}
+
+  }
+/*mobile view */
+@media (max-width: 500px)  { 
+  body {
+    position: relative;
+      width:100vw;
+      height:100vh;
+    background-image: url('bg2.jpg');
+    background-color: #000; /* fallback if image doesn't load */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment : fixed;
+  overflow: hidden;
+}
+   .heading{
+           position: fixed;
+          color:silver;
+          font-size:30px;
+          
+          font-weight: bold;
+          font-style: italic;
+          margin-left: 170px;
+          margin-top:150px;  
+          text-shadow: 0 0 5px silver,
+                        0 0 10px silver,
+                        0 0 20px white,
+                        0 0 40px #162929,
+                        0 0 40px #0b1313;
+          animation: landingGlow 1.5s ease-in-out forwards;
+        }
+           table{
+            color:silver;
+            font-size: 20px;
+            font-weight: 50px;
+            padding:20px;
+            margin-left:120px;
+            margin-top:10px;
+            border-spacing:10px;
+            
+       }
+       td {
+          
+          text:silver;
+        }
+        a{
+          margin-left: -5px;
+          font-size:20px;
+          color:silver;
+          text-decoration:none;
+          border-spacing: 5px;
+          
+        }
+        a:hover{
+                   color:cyan;
+                   text-shadow:0 0 5px cyan;
+
+        }
+
+       }
+       .container2{
+               margin:10px;
+               padding:0px;
+               width:100%;
+               height:100%;
+               color:silver;
+               
+       }
+       .submain{
+           display:flex;
+           flex:column;
+}
+.logo{
+    
+   margin-left:10px;
+   margin-top:5px;
+   
+}
+
+       table{
+            color:silver;
+            font-size: 20px;
+            font-weight: 50px;
+            padding:20px;
+            margin-left:120px;
+            margin-top:10px;
+            border-spacing:10px;
+       }
+          .maintwo {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.maintwo p {
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.maintwo .img {
+  width: 40%;
+  height: 100%;
+}
+.maintwo .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* makes image fill without distortion */
+}
+
+  
+  @keyframes landingGlow {
+  0% {
+    transform: translateY(-100px) scale(0.8);
+    opacity: 0;
+    text-shadow: none;
+  }
+  60% {
+    transform: translateY(20px) scale(1.05);
+    opacity: 1;
+    text-shadow: 
+      0 0 5px silver, 
+      0 0 10px silver, 
+      0 0 20px white, 
+      0 0 40px #121f1f, 
+      0 0 80px #142d2d;
+  }
+  80% {
+    transform: translateY(-5px) scale(1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+
+
