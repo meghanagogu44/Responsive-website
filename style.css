@@ -125,7 +125,7 @@ p{
 
   }
 /*mobile view */
-@media (max-width: 500px)  { 
+@media (max-width: 450px)  { 
   body {
     position: relative;
       width:100vw;
