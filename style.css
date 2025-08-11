@@ -4,6 +4,7 @@ body{
      width:100vw;
      height:100vh;
      background-color:rgb(241, 231, 231);
+     
     
     }
 .container1{
@@ -127,24 +128,24 @@ p{
 /*mobile view */
 @media (max-width: 500px)  { 
   body {
-      width:100vw;
+      width:100%;
       height:100vh;
     background-image: url('bg2.jpg');
     background-color: #000; /* fallback if image doesn't load */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment : fixed;
-  overflow: hidden;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-attachment :fixed;
+  overflow:hidden;
 }
    .heading{
            position: fixed;
           color:silver;
-          font-size:30px;
+          font-size:40px;
           
           font-weight: bold;
           font-style: italic;
-          margin-left: 170px;
+          margin-left: 130px;
           margin-top:150px;  
           text-shadow: 0 0 5px silver,
                         0 0 10px silver,
