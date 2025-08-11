@@ -163,7 +163,8 @@ p{
          font-weight: bold;
           font-style: italic;
           margin-left: 50px;
-          margin-top:900px;  
+         
+          margin-bottom : 20px;
           text-shadow: 0 0 5px silver,
                         0 0 10px silver,
                         0 0 20px white,
