@@ -4,6 +4,9 @@ body{
      width:100vw;
      height:100vh;
      background-color:rgb(241, 231, 231);
+     background:url(./bg2.jpg);
+     background-repeat: no-repeat;
+     background-size: cover; 
      
     
     }
