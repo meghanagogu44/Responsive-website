@@ -159,11 +159,11 @@ p{
    .heading{
            position: fixed;
           color:silver;
-          font-size:60px;
+          font-size:80px;
          font-weight: bold;
           font-style: italic;
           margin-left: 50px;
-          margin-top:400px;  
+          margin-top:900px;  
           text-shadow: 0 0 5px silver,
                         0 0 10px silver,
                         0 0 20px white,
