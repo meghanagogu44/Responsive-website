@@ -131,7 +131,7 @@ p{
 /*mobile view */
 @media (max-width: 500px)  { 
   body {
-      width:100%;
+      width:100vw;
       height:100vh;
     background-image: url('bg2.jpg');
     background-color: #000; /* fallback if image doesn't load */
@@ -144,12 +144,12 @@ p{
    .heading{
            position: fixed;
           color:silver;
-          font-size:80px;
+          font-size:100px;
           
           font-weight: bold;
           font-style: italic;
           margin-left: 130px;
-          margin-top:450px;  
+          margin-top:850px;  
           text-shadow: 0 0 5px silver,
                         0 0 10px silver,
                         0 0 20px white,
